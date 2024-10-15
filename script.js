@@ -1,6 +1,6 @@
 // Fetching data 
 
-fetch('https://ghibliapi.herokuapp.com/films')
+fetch('https://ghibliapi.vercel.app/films')
 	.then(response => {
 		return response.json()
 	})
